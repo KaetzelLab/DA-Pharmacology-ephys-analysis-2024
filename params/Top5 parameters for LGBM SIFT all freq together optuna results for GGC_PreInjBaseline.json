@@ -1,0 +1,344 @@
+{
+    "Amph vs Sal": {
+        "0": {
+            "min_child_sample": 21,
+            "num_leaves": 17,
+            "max_depth": 0,
+            "learning_rate": 0.2746519156258034,
+            "subsample": 0.7,
+            "colsample_bytree": 0.7,
+            "n_estimators": 30,
+            "reg_alpha": 0.3,
+            "reg_lambda": 0.2
+        },
+        "1": {
+            "min_child_sample": 24,
+            "num_leaves": 19,
+            "max_depth": 0,
+            "learning_rate": 0.2746519156258034,
+            "subsample": 0.5,
+            "colsample_bytree": 0.8,
+            "n_estimators": 25,
+            "reg_alpha": 0.3,
+            "reg_lambda": 0.3
+        },
+        "2": {
+            "min_child_sample": 23,
+            "num_leaves": 17,
+            "max_depth": 0,
+            "learning_rate": 0.2746519156258034,
+            "subsample": 0.7,
+            "colsample_bytree": 0.8,
+            "n_estimators": 22,
+            "reg_alpha": 0.3,
+            "reg_lambda": 0.7000000000000001
+        },
+        "3": {
+            "min_child_sample": 29,
+            "num_leaves": 19,
+            "max_depth": 0,
+            "learning_rate": 0.2746519156258034,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "n_estimators": 30,
+            "reg_alpha": 0.1,
+            "reg_lambda": 0.7000000000000001
+        },
+        "4": {
+            "min_child_sample": 18,
+            "num_leaves": 23,
+            "max_depth": 8,
+            "learning_rate": 0.2188403063495139,
+            "subsample": 0.9,
+            "colsample_bytree": 0.6,
+            "n_estimators": 30,
+            "reg_alpha": 1.0,
+            "reg_lambda": 0.7000000000000001
+        }
+    },
+    "Raclo vs SalT": {
+        "0": {
+            "min_child_sample": 25,
+            "num_leaves": 24,
+            "max_depth": 0,
+            "learning_rate": 0.02315271139591942,
+            "subsample": 0.8,
+            "colsample_bytree": 0.5,
+            "n_estimators": 30,
+            "reg_alpha": 0.9,
+            "reg_lambda": 0.3
+        },
+        "1": {
+            "min_child_sample": 19,
+            "num_leaves": 12,
+            "max_depth": 2,
+            "learning_rate": 0.05215281517448348,
+            "subsample": 0.9,
+            "colsample_bytree": 0.5,
+            "n_estimators": 14,
+            "reg_alpha": 0.9,
+            "reg_lambda": 0.9
+        },
+        "2": {
+            "min_child_sample": 11,
+            "num_leaves": 9,
+            "max_depth": 1,
+            "learning_rate": 0.2264333969872699,
+            "subsample": 0.9,
+            "colsample_bytree": 0.5,
+            "n_estimators": 24,
+            "reg_alpha": 0.1,
+            "reg_lambda": 0.1
+        },
+        "3": {
+            "min_child_sample": 25,
+            "num_leaves": 24,
+            "max_depth": 0,
+            "learning_rate": 0.2264333969872699,
+            "subsample": 0.8,
+            "colsample_bytree": 0.5,
+            "n_estimators": 26,
+            "reg_alpha": 0.9,
+            "reg_lambda": 0.0
+        },
+        "4": {
+            "min_child_sample": 22,
+            "num_leaves": 14,
+            "max_depth": 1,
+            "learning_rate": 0.05215281517448348,
+            "subsample": 0.5,
+            "colsample_bytree": 0.7,
+            "n_estimators": 10,
+            "reg_alpha": 0.4,
+            "reg_lambda": 0.4
+        }
+    },
+    "SCH vs Sal": {
+        "0": {
+            "min_child_sample": 26,
+            "num_leaves": 26,
+            "max_depth": 8,
+            "learning_rate": 0.2416056902934229,
+            "subsample": 1.0,
+            "colsample_bytree": 0.7,
+            "n_estimators": 29,
+            "reg_alpha": 0.8,
+            "reg_lambda": 0.4
+        },
+        "1": {
+            "min_child_sample": 17,
+            "num_leaves": 13,
+            "max_depth": 8,
+            "learning_rate": 0.2958724299235078,
+            "subsample": 0.8,
+            "colsample_bytree": 0.9,
+            "n_estimators": 29,
+            "reg_alpha": 0.1,
+            "reg_lambda": 0.5
+        },
+        "2": {
+            "min_child_sample": 15,
+            "num_leaves": 14,
+            "max_depth": 10,
+            "learning_rate": 0.2887086558814695,
+            "subsample": 1.0,
+            "colsample_bytree": 0.9,
+            "n_estimators": 29,
+            "reg_alpha": 0.1,
+            "reg_lambda": 0.1
+        },
+        "3": {
+            "min_child_sample": 15,
+            "num_leaves": 15,
+            "max_depth": 5,
+            "learning_rate": 0.273124350337077,
+            "subsample": 0.6,
+            "colsample_bytree": 1.0,
+            "n_estimators": 29,
+            "reg_alpha": 0.8,
+            "reg_lambda": 0.2
+        },
+        "4": {
+            "min_child_sample": 26,
+            "num_leaves": 10,
+            "max_depth": 4,
+            "learning_rate": 0.273124350337077,
+            "subsample": 1.0,
+            "colsample_bytree": 0.9,
+            "n_estimators": 29,
+            "reg_alpha": 0.3,
+            "reg_lambda": 0.3
+        }
+    },
+    "CLZ3 vs Sal": {
+        "0": {
+            "min_child_sample": 10,
+            "num_leaves": 11,
+            "max_depth": -1,
+            "learning_rate": 0.1795073613224349,
+            "subsample": 0.8,
+            "colsample_bytree": 0.5,
+            "n_estimators": 20,
+            "reg_alpha": 0.6000000000000001,
+            "reg_lambda": 0.7000000000000001
+        },
+        "1": {
+            "min_child_sample": 13,
+            "num_leaves": 23,
+            "max_depth": 10,
+            "learning_rate": 0.1230053444943954,
+            "subsample": 0.9,
+            "colsample_bytree": 0.5,
+            "n_estimators": 23,
+            "reg_alpha": 0.0,
+            "reg_lambda": 0.8
+        },
+        "2": {
+            "min_child_sample": 5,
+            "num_leaves": 13,
+            "max_depth": -1,
+            "learning_rate": 0.2796362358458819,
+            "subsample": 0.5,
+            "colsample_bytree": 0.9,
+            "n_estimators": 27,
+            "reg_alpha": 0.7000000000000001,
+            "reg_lambda": 0.4
+        },
+        "3": {
+            "min_child_sample": 10,
+            "num_leaves": 19,
+            "max_depth": 6,
+            "learning_rate": 0.09707861289210279,
+            "subsample": 0.7,
+            "colsample_bytree": 0.5,
+            "n_estimators": 20,
+            "reg_alpha": 0.2,
+            "reg_lambda": 0.7000000000000001
+        },
+        "4": {
+            "min_child_sample": 18,
+            "num_leaves": 19,
+            "max_depth": 7,
+            "learning_rate": 0.1081054243939251,
+            "subsample": 1.0,
+            "colsample_bytree": 0.5,
+            "n_estimators": 25,
+            "reg_alpha": 0.3,
+            "reg_lambda": 0.5
+        }
+    },
+    "CLZ1 vs Sal": {
+        "0": {
+            "min_child_sample": 23,
+            "num_leaves": 22,
+            "max_depth": 5,
+            "learning_rate": 0.2299132410618578,
+            "subsample": 0.6,
+            "colsample_bytree": 0.5,
+            "n_estimators": 29,
+            "reg_alpha": 0.2,
+            "reg_lambda": 0.0
+        },
+        "1": {
+            "min_child_sample": 22,
+            "num_leaves": 22,
+            "max_depth": -1,
+            "learning_rate": 0.2299132410618578,
+            "subsample": 0.9,
+            "colsample_bytree": 0.6,
+            "n_estimators": 27,
+            "reg_alpha": 0.9,
+            "reg_lambda": 0.0
+        },
+        "2": {
+            "min_child_sample": 23,
+            "num_leaves": 26,
+            "max_depth": 6,
+            "learning_rate": 0.2299132410618578,
+            "subsample": 0.5,
+            "colsample_bytree": 0.9,
+            "n_estimators": 25,
+            "reg_alpha": 0.6000000000000001,
+            "reg_lambda": 0.7000000000000001
+        },
+        "3": {
+            "min_child_sample": 23,
+            "num_leaves": 22,
+            "max_depth": 6,
+            "learning_rate": 0.7908809316632593,
+            "subsample": 1.0,
+            "colsample_bytree": 0.5,
+            "n_estimators": 28,
+            "reg_alpha": 0.0,
+            "reg_lambda": 0.7000000000000001
+        },
+        "4": {
+            "min_child_sample": 25,
+            "num_leaves": 29,
+            "max_depth": 7,
+            "learning_rate": 0.7908809316632593,
+            "subsample": 0.5,
+            "colsample_bytree": 0.6,
+            "n_estimators": 28,
+            "reg_alpha": 0.0,
+            "reg_lambda": 0.7000000000000001
+        }
+    },
+    "SalT vs Sal": {
+        "0": {
+            "min_child_sample": 9,
+            "num_leaves": 14,
+            "max_depth": 2,
+            "learning_rate": 0.001166948493098762,
+            "subsample": 0.6,
+            "colsample_bytree": 0.7,
+            "n_estimators": 26,
+            "reg_alpha": 0.4,
+            "reg_lambda": 1.0
+        },
+        "1": {
+            "min_child_sample": 11,
+            "num_leaves": 8,
+            "max_depth": 4,
+            "learning_rate": 0.04805660985824359,
+            "subsample": 0.9,
+            "colsample_bytree": 0.9,
+            "n_estimators": 10,
+            "reg_alpha": 0.3,
+            "reg_lambda": 0.1
+        },
+        "2": {
+            "min_child_sample": 24,
+            "num_leaves": 7,
+            "max_depth": 10,
+            "learning_rate": 0.002769586390947644,
+            "subsample": 1.0,
+            "colsample_bytree": 0.9,
+            "n_estimators": 18,
+            "reg_alpha": 0.5,
+            "reg_lambda": 1.0
+        },
+        "3": {
+            "min_child_sample": 15,
+            "num_leaves": 15,
+            "max_depth": 2,
+            "learning_rate": 0.04805660985824359,
+            "subsample": 0.6,
+            "colsample_bytree": 0.9,
+            "n_estimators": 6,
+            "reg_alpha": 0.5,
+            "reg_lambda": 0.0
+        },
+        "4": {
+            "min_child_sample": 22,
+            "num_leaves": 19,
+            "max_depth": 1,
+            "learning_rate": 0.03324533298382478,
+            "subsample": 0.8,
+            "colsample_bytree": 1.0,
+            "n_estimators": 22,
+            "reg_alpha": 0.1,
+            "reg_lambda": 0.7000000000000001
+        }
+    }
+}
