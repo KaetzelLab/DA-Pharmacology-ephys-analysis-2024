@@ -2,17 +2,16 @@
 % %  date: 28/03/2024
 % %  reference :"Neural effects of dopaminergic compounds revealed by multi-site electrophysiology in mice and interpretable machine-learning"
 
-
 clear all; close all; clc;
 
 %%Specify the path of chronux toolbox
-addpath(genpath('D:\EEG_AnalysisMatlabToolBox\chronux_2_12'))
+addpath(genpath('-----EEG_AnalysisMatlabToolBox\chronux_2_12')) % Chronux toolbox path
 %%Specify the directory to save data
-save_dir = 'D:\GluA1_WT_Pharmacology_analysis\Power_chronux_20s20s';
+save_dir = 'path to save power mat files';
 
 
 %%Provide directory for Raw Ephys mat files
-[FileList] = dir(fullfile('RawEphys mat files directory', '*.mat'));
+[FileList] = dir(fullfile('paht to matlab files', '*.mat'));
 
     
 %% loop through all raw files one by one 
@@ -53,14 +52,18 @@ for Fname = 1:length(FileList)
         Power.dims  = 'Chn X Times X Freqs';
 
     end  
-
+    
+    Ephys.Chronux = Power;
+    %% optional to remove all the unwanted data array
     Ephys.RawData = [];
-    Ephys.data    = [];
+    Ephys.Data = [];
+    Ephys.Coherence = [];
+    Ephys.PP_Data = [];
     Ephys.TTL     = [];
 
     FileName = strcat(Ephys.MouseID,'_',Ephys.ExptDetails.Experiment,...
         '_ChronuxPSD_20s20s_', Ephys.ExptDetails.Day);
-    save(fullfile(save_dir,FileName),'Ephys')    
+    save(fullfile(save_dir,FileName),'Ephys', '-v7.3')    
 
 end
 
